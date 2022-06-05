@@ -1,21 +1,44 @@
 <template>
-<div class="c-horizontal">
+<a :href="link"> <div class="c-horizontal">
         <img :src="source" :alt="alt" class="portada">
         <div class="card-texto">
             <h3>{{titulo}}</h3>
             <p>{{descripcion}}</p>
         </div>
-        <button><img src="/play_verde.svg" alt="Botón play" class="btn-play"></button> 
-</div>
+        <button @click="playpause">
+        <BotonPlay  :isPlaying="isPlaying" /></button>
+</div></a>
 </template>
 <script>
+import {Howl, Howler} from 'howler';
 export default{
-    props: ['source', 'alt', 'titulo', 'descripcion']
+    props: ['link', 'source', 'alt', 'titulo', 'descripcion'],
+    data(){
+        return{
+            sound: '',
+            isPlaying: false
+        }
+    },
+    mounted(){
+        this.sound = new Howl({
+      src: ['/audios/trouble.mp3']
+    });
+    },
+    methods: {
+        playpause(){
+            if(this.sound.playing()){
+                this.sound.pause();
+                this.isPlaying = false;
+            } else{this.sound.play();
+                this.isPlaying= true;}
+        }
+    }
 }
 </script>
 <style lang="postcss" scoped>
     .c-horizontal{
-        width: 90%;
+        width: 100%;
+        min-width: 300px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -25,6 +48,7 @@ export default{
         border-bottom-right-radius: 50px;
         background-color: white;
         box-shadow: 2px 2px 4px lightgray;
+        max-width: 380px;
     }
     .portada{
         height: 100px;

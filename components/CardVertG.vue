@@ -1,9 +1,10 @@
 <template>
-    <article>
+   <NuxtLink :to="{name: 'programas-programa', params: {titulo: titulo}}">
+   <article>
         <img :src="source" :alt="titulo">
         <h2>{{titulo}}</h2>
         <p>{{descripcion}}</p>
-    </article>
+    </article></NuxtLink>
 </template>
 
 <script>
@@ -14,6 +15,7 @@ export default{
 
 <style lang="postcss" scoped>
 article{
+    margin: 0;
         width: 200px;
         img{
             width: 100%;
