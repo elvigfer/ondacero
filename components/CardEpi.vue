@@ -1,4 +1,5 @@
 <template>
+
 <div class="container">
          <img v-if="source" :src="source" :alt="alt" class="portada">
          <img src="/opciones.svg" alt="Botón opciones" class="btn-opciones">

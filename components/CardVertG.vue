@@ -18,11 +18,15 @@ article{
     margin: 0;
         width: 200px;
         img{
-            width: 100%;
+            width: 90%;
             object-fit: cover;
         }
         h2, p{
             padding-left: 10px;
+        }
+        h2{
+            font-weight: bold;
+            font-size: 20px;
         }
 }
         

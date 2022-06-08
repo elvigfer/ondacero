@@ -1,9 +1,9 @@
 <template>
 <nav>
-    <NuxtLink to="/index"><button><img src="/home.svg" alt="Home"></button></NuxtLink>
-    <NuxtLink to= "/buscar"><button><img src="/buscar_AF.svg" alt="Buscar"></button></NuxtLink>
-    <NuxtLink to="/colecciones"><button><img src="/biblioteca_AF.svg" alt="Colecciones"></button></NuxtLink>
-    <NuxtLink to="/ajustes"><button><img src="/ajustes_AF.svg" alt="Ajustes"></button></NuxtLink>
+    <NuxtLink to="/"><button><img src="/home.svg" alt="Home"></button></NuxtLink>
+    <NuxtLink to= "/vacio"><button><img src="/buscar_AF.svg" alt="Buscar"></button></NuxtLink>
+    <NuxtLink to="/vacio"><button><img src="/biblioteca_AF.svg" alt="Colecciones"></button></NuxtLink>
+    <NuxtLink to="/vacio"><button><img src="/ajustes_AF.svg" alt="Ajustes"></button></NuxtLink>
 </nav>
 </template>
 <style lang="postcss" scoped>

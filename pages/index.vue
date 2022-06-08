@@ -3,6 +3,7 @@
     <cabecera-desktop/>
     <main>
     <h1 class="bienvenida">Buenas tardes</h1>
+    <h2>Especialmente para ti</h2>
     <flickity  class="flickity" ref="flickity" :options="flickityOptions">
      <card-vert-g 
       v-for="(item, index) in cardsv" 
@@ -13,7 +14,7 @@
       :descripcion="item.descripcion" 
       class="carousel-cell"/>
     </flickity>
-    
+    <h2>Actualidad</h2>
     <div class="c-horizontales">
         <card-hor 
       v-for="(item, i) in cardsh" 
@@ -23,6 +24,18 @@
       :titulo="item.titulo"
       :descripcion="item.descripcion" />
     </div>
+    <h2>Cultura y humor</h2>
+    <flickity  class="flickity ultimo" ref="flickity" :options="flickityOptions">
+     <card-vert-g 
+      v-for="(item, index) in cardsvdos" 
+      :key="index" 
+      :source="item.source" 
+      :alt="item.titulo" 
+      :titulo="item.titulo"
+      :descripcion="item.descripcion" 
+      class="carousel-cell"/>
+    </flickity>
+    <reproductor />
       </main>
       <NavBar/>
   </section>
@@ -46,73 +59,111 @@ export default {
         contain: true,
         prevNextButtons: false,
         pageDots: false
-        // any options from Flickity can be used
+        
       },
       cardsv: [
         {
           
           titulo: 'Julia en la Onda',
-          descripcion: 'Una descripcion',
+          descripcion: 'La actualidad con Julia Otero',
           source: '/actualidad-imagen.png'
         },
         {
           
           titulo: 'Más de uno',
-          descripcion: 'segunda des',
+          descripcion: 'El programa matinal de Carlos Alsina',
           source: '/cultura_imagen.png'
         },
         {
           
-          titulo: 'Botón 3',
-          descripcion: 'tercera',
+          titulo: 'After Hours',
+          descripcion: 'Con Gemma Ruiz e Isa Blanco',
+          source: '/after.png'
+        },
+        {
+          
+          titulo: 'La Parroquia',
+          descripcion: 'Todo el humor con El Monaguillo',
+          source: '/humor_imagen.png'
+        },
+        {
+          
+          titulo: 'La Cultureta',
+          descripcion: 'La tertulia de Rubén Amón',
+          source: '/cultureta.png'
+        },
+        {
+          
+          titulo: 'Radioestadio',
+          descripcion: 'Información deportiva con Edu García',
           source: '/deporte_imagen.png'
         },
-        {
-          
-          titulo: 'La Parroquia',
-          descripcion: 'cuarta',
-          source: '/humor_imagen.png'
-        },
-        {
-          
-          titulo: 'La Parroquia',
-          descripcion: 'cuarta',
-          source: '/humor_imagen.png'
-        },
-        {
-          
-          titulo: 'La Parroquia',
-          descripcion: 'cuarta',
-          source: '/humor_imagen.png'
-        },
+        
         ],
         cardsh: [
         {
-          titulo: 'Julia en la Onda',
-          descripcion: 'Una descripcion',
-          source: '/actualidad-imagen.png'
+          titulo: 'Por fin no es lunes',
+          descripcion: 'Entrevistas con Jaime Cantizano',
+          source: '/lunes.png'
         },
         {
-          titulo: 'Más de uno',
-          descripcion: 'segunda des',
-          source: '/cultura_imagen.png'
+          titulo: 'Noticias mediodía',
+          descripcion: 'Actualidad de la mano de Elena Gijón',
+          source: '/noticias.png'
         },
         {
-          titulo: 'Botón 3',
-          descripcion: 'tercera',
+          titulo: 'No son horas',
+          descripcion: 'El programa nocturno de José Luis Salas',
+          source: '/nohoras.png'
+        }],
+        cardsvdos: [
+        {
+          
+          titulo: '1931',
+          descripcion: 'Viajamos al 1931 y la II República',
+          source: '/1931.png'
+        },
+        {
+          
+          titulo: 'Toma la pastilla roja',
+          descripcion: 'Ciencia ficción y cine',
+          source: '/pastilla.jpg'
+        },
+        {
+          
+          titulo: 'Kinótico',
+          descripcion: 'Cine, series y cultura',
           source: '/deporte_imagen.png'
         },
         {
+          
           titulo: 'La Parroquia',
-          descripcion: 'cuarta',
+          descripcion: 'Todo el humor con El Monaguillo',
           source: '/humor_imagen.png'
-        }],
-        
+        },
+        {
+          
+          titulo: 'Rock&Roll Animal',
+          descripcion: 'cuarta',
+          source: '/rock.jpg'
+        },
+        {
+          
+          titulo: '¡Cállate, payaso!',
+          descripcion: 'cuarta',
+          source: '/payaso.png'
+        },
+        ],
     }
   }
   }
 </script>
 <style lang="postcss" scoped>
+.flickity{
+  margin-bottom: 20px;
+  padding: 0;
+  width: 100%;
+}
 *{
   box-sizing: border-box;
 }
@@ -120,21 +171,25 @@ export default {
   font-weight: bold;
   color: #95C11F;
   font-size: 24px;
+  margin-left: 30px;
   margin-bottom: 30px;
   padding-top: 30px;
 }
-
+h2{
+  margin-bottom: 20px;
+}
 .c-horizontales{
-  margin: 40px 0;
+  margin: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 h2{
             color: black;
             font-size: 24px;
             font-weight: bold;
+            margin-left: 30px;
         }
         p{
             color: #4f4f4f;
@@ -150,7 +205,20 @@ h2{
         }
 
         main{
-          margin-top: 100px;
-          padding: 0 30px 30px 30px;
+          margin-top: 80px;
+          padding: 0;
+        }
+        .ultimo{
+          margin-bottom: 180px;
+          padding-bottom: 20px;
+        }
+        .flickity{
+          padding-left: 15px;
+        }
+        @media (max-width: 600px){
+          .ultimo{
+          margin-bottom: 265px;
+          padding-bottom: 20px;
+        }
         }
         </style>

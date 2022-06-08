@@ -49,11 +49,11 @@ export default {
                 {
 
                     titulo: 'Julia en la Onda',
-                    descripcion: 'Una descripcion',
+                    descripcion: 'La actualidad con Julia Otero',
                     source: '/actualidad-imagen.png',
                     episodios: [
                         {
-          titulo: 'Julia en la Onda',
+          titulo: 'Título del episodio',
           descripcion: 'Una descripcion',
           source: '',
           numero: '00X00',
@@ -61,24 +61,24 @@ export default {
           duracion: '51 min'
         },
         {
-          titulo: 'Más de uno',
-          descripcion: 'segunda des',
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
           source: '',
           numero: '00X00',
           fecha: '25/05/22',
           duracion: '51 min'
         },
         {
-          titulo: 'Botón 3',
-          descripcion: 'tercera',
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
           source: '',
           numero: '00X00',
           fecha: '25/05/22',
           duracion: '51 min'
         },
         {
-          titulo: 'La Parroquia',
-          descripcion: 'cuarta',
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
           source: '',
           numero: '00X00',
           fecha: '25/05/22',
@@ -88,43 +88,577 @@ export default {
                     ]
                 },
                 {
-
-                    titulo: 'Más de uno',
-                    descripcion: 'segunda des',
-                    source: '/cultura_imagen.png'
-                },
-                {
-
-                    titulo: 'Botón 3',
-                    descripcion: 'tercera',
-                    source: '/deporte_imagen.png'
-                },
-                {
-
-                    titulo: 'La Parroquia',
-                    descripcion: 'cuarta',
-                    source: '/humor_imagen.png'
-                },
-                {
-                    titulo: 'Julia en la Onda 2',
-                    descripcion: 'Una descripcion 2',
-                    source: '/actualidad-imagen.png'
-                },
-                {
-                    titulo: 'Más de uno 2',
-                    descripcion: 'segunda des 2',
-                    source: '/cultura_imagen.png'
-                },
-                {
-                    titulo: 'Botón 3 2',
-                    descripcion: 'tercera 2',
-                    source: '/deporte_imagen.png'
-                },
-                {
-                    titulo: 'La Parroquia 2',
-                    descripcion: 'cuarta 2',
-                    source: '/humor_imagen.png'
-                }],
+          
+          titulo: 'Más de uno',
+          descripcion: 'El programa matinal de Carlos Alsina',
+          source: '/cultura_imagen.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          
+          titulo: 'After Hours',
+          descripcion: 'Con Gemma Ruiz e Isa Blanco',
+          source: '/after.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          
+          titulo: 'La Parroquia',
+          descripcion: 'Todo el humor con El Monaguillo',
+          source: '/humor_imagen.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          
+          titulo: 'La Cultureta',
+          descripcion: 'La tertulia de Rubén Amón',
+          source: '/cultureta.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          
+          titulo: 'Radioestadio',
+          descripcion: 'Información deportiva con Edu García',
+          source: '/deporte_imagen.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          titulo: 'Por fin no es lunes',
+          descripcion: 'Entrevistas con Jaime Cantizano',
+          source: '/lunes.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          titulo: 'Noticias mediodía',
+          descripcion: 'Actualidad de la mano de Elena Gijón',
+          source: '/noticias.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          titulo: 'No son horas',
+          descripcion: 'El programa nocturno de José Luis Salas',
+          source: '/nohoras.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          
+          titulo: '1931',
+          descripcion: 'Viajamos al 1931 y la II República',
+          source: '/1931.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          
+          titulo: 'Toma la pastilla roja',
+          descripcion: 'Ciencia ficción y cine',
+          source: '/pastilla.jpg',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          
+          titulo: 'Kinótico',
+          descripcion: 'Cine, series y cultura',
+          source: '/deporte_imagen.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          
+          titulo: 'La Parroquia',
+          descripcion: 'Todo el humor con El Monaguillo',
+          source: '/humor_imagen.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          
+          titulo: 'Rock&Roll Animal',
+          descripcion: 'cuarta',
+          source: '/rock.jpg',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        },
+        {
+          
+          titulo: '¡Cállate, payaso!',
+          descripcion: 'cuarta',
+          source: '/payaso.png',
+          episodios: [
+                        {
+          titulo: 'Título del episodio',
+          descripcion: 'Una descripcion',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 2',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 3',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        {
+          titulo: 'Título del episodio 5',
+          descripcion: 'Una descripción',
+          source: '',
+          numero: '00X00',
+          fecha: '25/05/22',
+          duracion: '51 min'
+        },
+        
+                    ]
+        }
+        ],
             
         }
     }
@@ -171,6 +705,25 @@ section{
 }
 section{
     background-color: #f5f5f5;
+    height: 100%;
 }
 
+ @media (max-width: 600px){
+     section{
+         flex-direction: column;
+     }
+     #epi{
+         position: relative;
+     }
+     .scroll{
+         margin: 0 0 85px 0;
+     }
+     #ficha{
+         width: 90%;
+         margin-bottom: 20px;
+         img{
+             width: 60%;
+         }
+     }
+ }
 </style>

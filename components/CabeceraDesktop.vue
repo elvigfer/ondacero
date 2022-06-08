@@ -3,14 +3,13 @@
     <nav>
         <img class="perfil" src="/Avatar.svg" alt="">
         <ul class="menu-superior">
-           <NuxtLink to="/index"><li>Incio</li></NuxtLink> 
-            <NuxtLink to="/"><li>Mis colecciones</li></NuxtLink>
-            <NuxtLink to="/"><li>Buscador</li></NuxtLink>
-            <NuxtLink to="/"><li>Ajustes</li></NuxtLink>
+           <NuxtLink to="/"><li>Incio</li></NuxtLink> 
+            <NuxtLink to="/vacio"><li>Mis colecciones</li></NuxtLink>
+            <NuxtLink to="/vacio"><li>Buscador</li></NuxtLink>
+            <NuxtLink to="/vacio"><li>Ajustes</li></NuxtLink>
         </ul>
     </nav>
-    <h1>Página</h1>
-    <img src="/logo.svg" alt="logo onda cero">
+    <NuxtLink to="/"><img src="/logo.svg" alt="logo onda cero"></NuxtLink>
 </div>
 </template>
 <style lang="postcss" scoped>

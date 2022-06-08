@@ -1,13 +1,14 @@
 <template>
-<a :href="link"> <div class="c-horizontal">
+<div class="c-horizontal">
+    <NuxtLink :to="{name: 'programas-programa', params: {titulo: titulo}}">
         <img :src="source" :alt="alt" class="portada">
         <div class="card-texto">
             <h3>{{titulo}}</h3>
             <p>{{descripcion}}</p>
-        </div>
+        </div></NuxtLink>
         <button @click="playpause">
         <BotonPlay  :isPlaying="isPlaying" /></button>
-</div></a>
+</div>
 </template>
 <script>
 import {Howl, Howler} from 'howler';
@@ -36,6 +37,14 @@ export default{
 }
 </script>
 <style lang="postcss" scoped>
+    h3{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+        color: #414141;
+    }
     .c-horizontal{
         width: 100%;
         min-width: 300px;
@@ -49,6 +58,8 @@ export default{
         background-color: white;
         box-shadow: 2px 2px 4px lightgray;
         max-width: 380px;
+        margin-right: 10px;
+         margin-bottom: 15px;
     }
     .portada{
         height: 100px;
@@ -56,6 +67,7 @@ export default{
     .card-texto{
         width: 70%;
         margin-left: 15px;
+        margin-right: 10px;
     }
     button{
         width: 30px;
@@ -65,4 +77,9 @@ export default{
         width: 30px;
     }
     }
+    a{
+        display: flex;
+        flex-direction: row;
+    }
+    
 </style>
